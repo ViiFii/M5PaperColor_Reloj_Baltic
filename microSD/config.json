@@ -1,0 +1,61 @@
+{
+  "_comment": "Copy this file to the ROOT of your microSD as /config.json.",
+  "_weather": "Open-Meteo (open-meteo.com) — free, no API key, CC BY 4.0",
+  "wifi": [
+    {
+      "ssid": "YOUR_WIFI_SSID",
+      "pass": "YOUR_WIFI_PASSWORD"
+    },
+    {
+      "ssid": "YOUR_SECOND_WIFI",
+      "pass": "SECOND_PASSWORD"
+    }
+  ],
+  "aemet_api_key": "",
+  "timezone": "EET-2EEST,M3.5.0/3,M10.5.0/4",
+  "carousel_seconds": 300,
+  "photo_auto_rotate": true,
+  "deep_sleep_minutes": 60,
+  "fotos_dir": "/Fotos",
+  "musica_dir": "/Music",
+  "libros_dir": "/Library",
+  "font_title": "/fonts/cyrillic_title.vlw",
+  "font_body": "/fonts/cyrillic_body.vlw",
+  "modos": {
+    "clima": true,
+    "carrusel": true,
+    "musica": true,
+    "libro": true,
+    "wifi": true
+  },
+  "wifi_modo": {
+    "ap_ssid": "PaperColor",
+    "ap_pass": "papercolor1234",
+    "user": "admin",
+    "pass": "admin"
+  },
+  "_note_locations": "lat/lon coordinates are used (Open-Meteo). municipio/estacion are ignored.",
+  "locations": [
+    {
+      "name": "Vilnius",
+      "lat": 54.6872,
+      "lon": 25.2797,
+      "municipio": "",
+      "estacion": ""
+    },
+    {
+      "name": "Riga",
+      "lat": 56.946,
+      "lon": 24.1059,
+      "municipio": "",
+      "estacion": ""
+    },
+    {
+      "name": "Tallinn",
+      "lat": 59.437,
+      "lon": 24.7536,
+      "municipio": "",
+      "estacion": ""
+    }
+  ]
+}
